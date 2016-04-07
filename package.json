@@ -1,0 +1,23 @@
+{
+  "name": "react-native-tabbar",
+  "version": "1.0.0",
+  "description": "react-native-tabbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itspas/react-native-tabbar.git"
+  },
+  "keywords": [
+    "tabbar",
+    "react-native-tabbar"
+  ],
+  "author": "calvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itspas/react-native-tabbar/issues"
+  },
+  "homepage": "https://github.com/itspas/react-native-tabbar#readme"
+}
