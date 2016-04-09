@@ -10,7 +10,7 @@ export default class TabBar extends React.Component{
 	constructor(props){
 		super(props);
 		let active = 0;
-		this.props.children.forEach((e,k)=>{
+		this.props.children && this.props.children.forEach((e,k)=>{
 			e.props.active && (active = k);
 		});
 		this.state = {
@@ -21,10 +21,10 @@ export default class TabBar extends React.Component{
 		return (
 			<View style={{flex:1}}>
 				<View style={styles.content}>
-					{this.props.children[this.state.active].props.children}
+					{this.props.children && this.props.children[this.state.active].props.children}
 				</View>
 				<View style={[styles.tabbar,this.props.style]}>
-					{this.props.children.map((e,k)=>{
+					{this.props.children && this.props.children.map((e,k)=>{
 						return <TabBarItem key={k} {...e.props} active={this.state.active == k} tabbar={this} index={k}/>;
 					})}
 				</View>
