@@ -1,4 +1,5 @@
 #React-native-tabbar
+适用iOS、Android
 
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，也可以用以下联系方式跟我交流
