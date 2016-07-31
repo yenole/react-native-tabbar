@@ -1,6 +1,7 @@
 'use strict'
 import React from 'react';
 import {
+	StyleSheet,
 	View,
 	Image,
 	Text,
@@ -54,7 +55,7 @@ class TabBarItem extends React.Component{
 TabBar.Item = TabBarItem;
 
 
-const styles = React.StyleSheet.create({
+const styles = StyleSheet.create({
 	tabbar:{
 		left:0,
 		right:0,
